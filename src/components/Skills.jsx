@@ -14,6 +14,7 @@ import MDB from '../assets/mongodb.svg'
 import GH from '../assets/GH.png'
 import cde from '../assets/programming.png'
 import b5 from '../assets/bootstrap.png'
+import dj from '../assets/pngaaa.com-4152262.png'
 
 const Skills = () => {
     return (
@@ -66,8 +67,12 @@ const Skills = () => {
                 
                 <div className='flex flex-wrap justify-items-center  justify-evenly  grid-cols-3 gap-4 place-items-center'>
                     <div>
-                        <img className='w-[2rem] mx-auto' src={FLASK} alt='HTML icon'/>
+                        <img className='w-[2rem] mx-auto' src={FLASK} alt='Flask icon'/>
                         <p className='text-center'> Flask/Jinja2 </p>
+                    </div>
+                    <div>
+                        <img className='w-[4rem] mx-auto' src={dj} alt='DJANGO icon'/>
+                        <p className='text-center'> Django </p>
                     </div>
                     <div>
                         <img className='w-[2rem] mx-auto' src={SB} alt='SpringBoot  icon'/>
