@@ -20,7 +20,7 @@ const Skills = () => {
 
     <div name='skills' className='bg-[#0a192f] text-gray-300'>
         {/* Container */}
-        <div className='max-w-[1000px] mx-auto flex flex-col md-flex-row justify-center w-full h-[100vh]  hover:scale-110 duration-500'>
+        <div className='max-w-[1000px] mx-auto flex flex-col md-flex-row justify-center w-full h-[100vh]'>
             <div>
                 <p className='text-4xl font-bold inline border-b-4 border-red-600 '>Skills</p>
                 <p className='py-4'> // These are the technologies I've work with </p>
